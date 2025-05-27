@@ -1,0 +1,196 @@
+[
+  {
+    "number": 1,
+    "emoji": "🔧",
+    "title": "Fundamentos do Back-End",
+    "color": "gray",
+    "commands": [
+      {
+        "cmd": "Servidor Web",
+        "desc": "Um servidor web recebe requisições HTTP dos clientes (como navegadores) e envia respostas. Exemplos populares incluem Apache, Nginx e Node.js.",
+        "link": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server"
+      },
+      {
+        "cmd": "HTTP e REST",
+        "desc": "O protocolo HTTP é a base da comunicação na web. REST (Representational State Transfer) é um padrão de arquitetura para criação de APIs baseadas em HTTP.",
+        "link": "https://restfulapi.net/"
+      },
+      {
+        "cmd": "Banco de Dados Relacional",
+        "desc": "SGBDs relacionais como MySQL e PostgreSQL organizam os dados em tabelas. Utilizam a linguagem SQL para manipulação e consulta.",
+        "link": "https://www.postgresql.org/docs/"
+      },
+      {
+        "cmd": "Banco de Dados NoSQL",
+        "desc": "NoSQL é uma categoria de bancos de dados como MongoDB, que armazenam dados de forma não relacional, ideal para dados sem estrutura rígida.",
+        "link": "https://www.mongodb.com/nosql-explained"
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "emoji": "⚙️",
+    "title": "Linguagens e Runtimes",
+    "color": "black",
+    "commands": [
+      {
+        "cmd": "Node.js",
+        "desc": "Ambiente de execução JavaScript no lado do servidor. Muito usado por ser leve, escalável e possuir grande ecossistema de pacotes (npm).",
+        "link": "https://nodejs.org/pt-br/"
+      },
+      {
+        "cmd": "Python",
+        "desc": "Linguagem versátil usada para APIs (Flask, Django), automações e ciência de dados. Fácil de aprender e com forte comunidade.",
+        "link": "https://www.python.org/"
+      },
+      {
+        "cmd": "Java",
+        "desc": "Linguagem robusta e orientada a objetos. Muito usada em aplicações corporativas com Spring Boot.",
+        "link": "https://spring.io/projects/spring-boot"
+      },
+      {
+        "cmd": "PHP",
+        "desc": "Linguagem muito utilizada para web e integração com CMSs como WordPress. Funciona com servidores Apache e Nginx.",
+        "link": "https://www.php.net/manual/pt_BR/index.php"
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "emoji": "🔒",
+    "title": "Segurança no Back-End",
+    "color": "red",
+    "commands": [
+      {
+        "cmd": "Autenticação e Autorização",
+        "desc": "Autenticação garante que o usuário é quem diz ser. Autorização define o que o usuário pode fazer. Métodos comuns incluem JWT, OAuth e sessões.",
+        "link": "https://jwt.io/introduction"
+      },
+      {
+        "cmd": "Criptografia",
+        "desc": "Utilizada para proteger dados sensíveis, como senhas (bcrypt, SHA-256) e transmissões (SSL/TLS).",
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/Security"
+      },
+      {
+        "cmd": "Sanitização de Dados",
+        "desc": "Evita ataques como SQL Injection e XSS. É essencial validar e limpar todos os dados recebidos do usuário.",
+        "link": "https://owasp.org/www-community/Injection"
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "emoji": "📡",
+    "title": "APIs e Integrações",
+    "color": "blue",
+    "commands": [
+      {
+        "cmd": "RESTful API",
+        "desc": "Interface de comunicação baseada em recursos e métodos HTTP. Simples, escalável e amplamente usada.",
+        "link": "https://restfulapi.net/"
+      },
+      {
+        "cmd": "GraphQL",
+        "desc": "Linguagem de consulta desenvolvida pelo Facebook que permite ao cliente escolher quais dados receber da API.",
+        "link": "https://graphql.org/"
+      },
+      {
+        "cmd": "WebSockets",
+        "desc": "Protocolo de comunicação bidirecional ideal para aplicações em tempo real, como chats e jogos.",
+        "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API"
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "emoji": "🚀",
+    "title": "DevOps e Deploy",
+    "color": "green",
+    "commands": [
+      {
+        "cmd": "Docker",
+        "desc": "Ferramenta de containerização que isola aplicações e dependências em ambientes portáteis e replicáveis.",
+        "link": "https://www.docker.com/"
+      },
+      {
+        "cmd": "CI/CD",
+        "desc": "Integração e entrega contínua automatizam testes e deploys. Ferramentas comuns: GitHub Actions, GitLab CI, Jenkins.",
+        "link": "https://www.atlassian.com/continuous-delivery"
+      },
+      {
+        "cmd": "Monitoramento",
+        "desc": "Ferramentas como Prometheus, Grafana e Logstash ajudam a acompanhar métricas, logs e alertas em produção.",
+        "link": "https://grafana.com/solutions/monitoring/"
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "emoji": "📦",
+    "title": "Arquitetura e Componentes",
+    "color": "purple",
+    "commands": [
+      {
+        "cmd": "Monolito vs Microserviços",
+        "desc": "Monólitos centralizam a aplicação em um único serviço. Microserviços dividem funcionalidades em serviços menores e independentes.",
+        "link": "https://martinfowler.com/articles/microservices.html"
+      },
+      {
+        "cmd": "Serverless",
+        "desc": "Modelo de computação onde a infraestrutura é gerenciada por provedores como AWS Lambda, focando apenas no código da função.",
+        "link": "https://www.serverless.com/"
+      },
+      {
+        "cmd": "Mensageria (Kafka, RabbitMQ)",
+        "desc": "Soluções para comunicação assíncrona entre serviços. Garantem escalabilidade e desacoplamento em sistemas distribuídos.",
+        "link": "https://kafka.apache.org/intro"
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "emoji": "🧪",
+    "title": "Testes e Qualidade de Código",
+    "color": "orange",
+    "commands": [
+      {
+        "cmd": "Testes Unitários",
+        "desc": "Garantem que cada função ou módulo funcione isoladamente. Ferramentas: Jest (Node), Pytest (Python), JUnit (Java).",
+        "link": "https://jestjs.io/"
+      },
+      {
+        "cmd": "Testes de Integração",
+        "desc": "Validam a interação entre componentes ou sistemas externos como bancos de dados e APIs.",
+        "link": "https://docs.cypress.io/"
+      },
+      {
+        "cmd": "Controle de Erros e Logs",
+        "desc": "Captura e monitoramento de falhas em tempo real. Ferramentas comuns incluem Sentry, Winston e Logstash.",
+        "link": "https://sentry.io/"
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "emoji": "🗃️",
+    "title": "ORMs e Persistência",
+    "color": "brown",
+    "commands": [
+      {
+        "cmd": "Sequelize (Node.js)",
+        "desc": "ORM para Node.js que facilita a modelagem de dados, criação de tabelas e execução de queries em bancos relacionais.",
+        "link": "https://sequelize.org/"
+      },
+      {
+        "cmd": "SQLAlchemy (Python)",
+        "desc": "ORM poderoso e flexível usado em aplicações Python com bancos como PostgreSQL, SQLite, MySQL.",
+        "link": "https://www.sqlalchemy.org/"
+      },
+      {
+        "cmd": "Eloquent (Laravel)",
+        "desc": "ORM do Laravel (PHP) que fornece uma sintaxe elegante para interagir com bancos de dados relacionais.",
+        "link": "https://laravel.com/docs/eloquent"
+      }
+    ]
+  }
+]
